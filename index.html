@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khushi Singh</title>
+    <link rel="icon" type="image/jpg" href="https://i.ibb.co/zRsTj3p/Frame-1-37.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/cd67487056.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="Images/Aditi Logo.jpg" class="logo" /> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+              <a
+                href="https://drive.google.com/file/d/1T5wM7FMIP9lg8lu8wmAnRTeqQ3Ehjlzs/view?usp=drivesdk"
+                >Resume</a
+              >
+            </li>
+                    <i class="fa-solid fa-xmark mobile-icon" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars mobile-icon" onclick="openmenu()"></i>
+            </nav>
+            <div class="row header-row">
+                <!-- Column 1: Header Text -->
+                <div class="header-col-1">
+                    <div class="header-text">
+                        <p>
+                            Passionate
+                            <span style="
+                                    color: #FFFF00;
+                                    font-weight: bold;
+                                    text-shadow: 2px 2px 4px #000000;
+                                  ">
+                                'T</span>rend Predictor'<br />
+                            <span style="
+                                    color: #FFFF00;
+                                    font-weight: bold;
+                                    text-shadow: 2px 2px 4px #000000;
+                                  ">'Q</span>uantitative Problem' Solver<br />
+                            <span style="
+                                    color: #FFFF00;
+                                    font-weight: bold;
+                                    text-shadow: 2px 2px 4px #000000;
+                                  ">'E</span>lectronics' Enthusiast
+                        </p>
+                        <h1>Hi, I am <span>Khushi</span><br />Singh from West Bengal</h1>
+                    </div>
+                </div>
+            
+                <!-- Column 2: Header Image -->
+                <div class="header-col-2">
+                    <img src="khushipic.png" alt="Profile Picture" class="header-image" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="profile-photo">
+                        <img src="khushipic2.png" alt="profile picture">
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="text-align: justify">
+                        I'm Khushi Singh, a data enthusiast and aspiring analyst in my final year of B.Tech in Electronics and Communication Engineering at MCKV
+                        Institute of Engineering. I'm passionate about uncovering insights and driving data-informed decisions using tools like
+                        SQL, Python, PowerBI, and Tableau. With a solid foundation in data statistics and project experience, I'm eager to
+                        contribute to impactful projects.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('experience')">
+                            Experience
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Coursework</span><br />Microprocessors and Microcontrollers, Digital Circuits,
+                                CMOS Analog and Digital Circuits, Device Physics, Design for Testability</li>
+                            <li><span>Programming Languages</span><br />Python, JavaScript, C++, C, SQL</li>
+                            <li><span>Data Visulization Tools</span><br />Tableau, PowerBI, Matplotlib</li>
+                            <li><span>Databases and Querying</span><br />MySQL, MongoDB</li>
+                            <li><span>Excel and Spreadsheet Tools</span><br />Microsoft Excel, Google Sheets</li>
+                            <li><span>Version Control</span><br />Git, Github</li>
+                            <li><span>Soft Skills</span><br />Leadership, Team Work, Problem-Solving, Critical Thinking, Event Management</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Treasurer, MCKV Institute of Engineering </span><br />Rotaract Club, Kolkata
+                            </li>
+                            <li>
+                                <span>Joint Treasurer, MCKV Institute of Engineering </span><br />Rotaract Club, Kolkata
+                            </li>
+                            <li>
+                                <span>Head Coordinator, MCKV Institute of Engineering</span><br /> Training and placement Cell
+                                </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>B.Tech(ECE), MCKV Institute of Engineering , 2021-25</span><br />CGPA - 8.75
+                            </li>
+                            <li>
+                                <span>ISC, Abbot Shishu Hall, Kolkata , 2019-21</span><br />90 % in Class 12th
+                            </li>
+                            <li>
+                                <span>ICSE, Abbot Shishu Hall, Kolkata, 2009-19</span><br />80 % in Class 10th
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="internship">
+                        <ul>
+                            <li>
+                                <span>WebSkitter Pvt. Ltd., Kolkata</span><br /><i>Web Developer</i>
+                                <br />
+                                <ul class="intern">
+                                    <li>Responsive web applications have been built using Flask, HTML, CSS, and JavaScript, with a focus on user-friendly
+                                    designand functionality.</li>
+                                    <li>Data collection and processing have been performed, consolidating data from 5+ sources into streamlined CSV formats
+                                    (500+ rows), resulting in a 30% improvement in analysis efficiency.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------achievements----------->
+    <div id="achievements">
+        <div class="container">
+            <h1 class="sub-title">Achievements</h1>
+            <div class="achievements-list">
+
+                <div>
+                    <h3>WISH'24 SCHOLAR</h3>
+                    <br />
+                    <p>
+                        Chosen as one of India's top 65 women for WISH's (Women in Silicon
+                        Hardware) first cohort, supported by Google and TalentSprint.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------projects---------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="analysis1.png" />
+                    <div class="layer">
+                        <h3>Retail Sales Data Analysis and Visualization</h3>
+                        <p>
+                            Analyzed 5,000+ transactions, identified top products, and visualized trends with Power BI, revealing 12% peak-season
+                            growth.
+                        </p>
+                        <a href=""><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="analysis2.jpg" />
+                    <div class="layer">
+                        <h3>Comprehensive Netflix Data Analysis with SQL</h3>
+                        <p>
+                            Analyzed 8,000+ Netflix entries, using SQL to assess content trends, ratings, and genres. Identified top Indian actors, a 20% rise in Indian content, and categorized shows based on audience preferences.
+                        </p>
+                        <a href=""><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="khushiBTP.jpg" />
+                    <div class="layer">
+                        <h3>Smart Blind Stick</h3>
+                        <p>
+                        A smart blind stick was developed using Arduino Uno, integrating ultrasonic and water sensors with a buzzer for
+                        real-time alerts. It provided tactile and visual feedback, enhancing navigation with an affordable design.
+                        </p>
+                        <a href=""><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="analysis3.jpg" />
+                    <div class="layer">
+                        <h3>Walmart Data Analysis</h3>
+                        <p>
+                            An end-to-end analysis of Walmart sales data was conducted using Python and SQL to extract key business
+                            insights,
+                            enhancing data manipulation and querying skills.
+                        </p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="show-more">
+                <button id="showMoreBtn" class="btn">See More</button>
+            </div>
+        </div>
+    </div>
+
+    <!---------------Contact---------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>
+                        <i class="fa-regular fa-paper-plane"></i>
+                        <a href="mailto:khushisinghindia1@gmail.com" class="email-link">khushisinghindia1@gmail.com</a>
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/khushi-singh-0b8983293/"><i class="fab fa-linkedin"></i></a>
+                        <!-- <a href="https://www.instagram.com/tapariya_aditi23/"><i class="fab fa-instagram"></i></a> -->
+                        <!-- <a href="https://twitter.com/tapariyaaditi23"><i class="fab fa-twitter-square"></i></a> -->
+                        <a href="https://github.com/Khushi5731"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://leetcode.com/u/Happiness-123/"><i class="fa-solid fa-code"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input type="email" name="Email" placeholder="Your Email" required />
+                        <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Khushi Singh.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Check if hidden projects are visible initially
+            if ($(".hidden-projects").is(":visible")) {
+                $("#showMoreBtn").text("Show Less");
+            } else {
+                $("#showMoreBtn").text("Show More");
+            }
+
+            $("#showMoreBtn").on("click", function () {
+                $(".hidden-projects").slideToggle();
+                $(this).text(function (i, text) {
+                    return text === "Show More" ? "Show Less" : "Show More";
+                });
+            });
+        });
+    </script>
+
+    <script>
+        const scriptURL =
+            "https://script.google.com/macros/s/AKfycbx8QsBGVmCnk3bLK3oRuDTCV-JGSwCCXsTQL387J_2LI1cW6k-i5OXxU8NlVUdfZ5q3Ig/execs";
+        const form = document.forms["submit-to-google-sheet"];
+        const msg = document.getElementById("msg");
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            fetch(scriptURL, { method: "POST", body: new FormData(form) })
+                .then((response) => {
+                    msg.innerHTML = "Message sent successfully";
+                    setTimeout(function () {
+                        msg.innerHTML = "";
+                    }, 5000);
+                    form.reset();
+                })
+                .catch((error) => console.error("Error!", error.message));
+        });
+    </script>
+</body>
+
+</html>
